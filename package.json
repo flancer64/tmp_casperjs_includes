@@ -9,7 +9,7 @@
     "phantomjs-prebuilt": "^2.1.7"
   },
   "scripts": {
-    "test": "node_modules/casperjs/bin/casperjs test ./src/test/ --pre=src/pre.js --includes=src/inc.js --post=src/post.js --xunit=xunit.xml --verbose"
+    "test": "node_modules/casperjs/bin/casperjs test tests/ --pre=pre.js --includes=inc.js --post=post.js --xunit=xunit.xml --verbose"
   },
   "author": "Alex Gusev <alex@flancer64.com>",
   "license": "MIT",
